@@ -1,0 +1,25 @@
+{
+  "name": "covid-19",
+  "version": "1.0.0",
+  "description": "\"app for covid-19\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokuljs/covid-19.git"
+  },
+  "author": "gokul js",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gokuljs/covid-19/issues"
+  },
+  "homepage": "https://github.com/gokuljs/covid-19#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
