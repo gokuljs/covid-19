@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+
+    <h1>country page </h1>
+
+    <% data.forEach(function(user){ %>
+
+        <ul>
+            <li>
+                <%= user[i].country %>
+            </li>
+        </ul>
+
+
+
+        <% }); %>
+
+
+            <%- include("partials/footer.ejs") %>
