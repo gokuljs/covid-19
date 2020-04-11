@@ -18,8 +18,14 @@
   "homepage": "https://github.com/gokuljs/covid-19#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "chart": "^0.1.2",
+    "chart.js": "^2.9.3",
+    "csv-parser": "^2.3.2",
+    "echarts": "^4.7.0",
+    "echarts-leaflet": "^1.1.0",
     "ejs": "^3.0.2",
     "express": "^4.17.1",
+    "leaflet": "^1.6.0",
     "locus": "^2.0.4",
     "request": "^2.88.2"
   }
