@@ -2,16 +2,18 @@
     font-size: 35px;
 }
 
-span {
-    padding-right: 20px;
+.navbar-brand {
+    padding: 0px;
+    font-family: 'Cookie', cursive;
 }
 
-.navbar-brand {
+.navbar-nav {
+    font-size: 25px;
     font-family: 'Cookie', cursive;
 }
 
 .test2 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .navbar {
@@ -54,7 +56,7 @@ h4 {
 }
 
 section {
-    margin-bottom: px;
+    margin-bottom: 30px;
 }
 
 h3.prevention {

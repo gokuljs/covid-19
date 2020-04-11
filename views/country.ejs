@@ -14,33 +14,35 @@
                     <th scope="col">Recovered</th>
                     <th scope="col">Active</th>
                     <th scope="col">Critical</th>
-                    <th scope="col">critical</th>
+                    <th scope="col">Test</th>
                     <th scope="col">Confirmed</th>
                 </tr>
             </thead>
             <tbody>
-                <% data.data.forEach(function (user) {  %>
-                    <% var i=1 %>
+                <% var i=0 %>
+                    <% data.data.forEach(function (user) {  %>
+
                         <tr>
                             <th scope="row">
-                                <%= i%>
+                                <%=i+1%>
+                                    <% i++ %>
                             </th>
                             <td>
                                 <%= user.country %>
                             </td>
-                            <td>
+                            <td class="text-warning">
                                 <%= user.cases %>
                             </td>
                             <td>
                                 <%= user.todayCases %>
                             </td>
-                            <td>
+                            <td class="text-danger">
                                 <%= user.deaths %>
                             </td>
                             <td>
                                 <%= user.todayDeaths %>
                             </td>
-                            <td>
+                            <td class="text-success">
                                 <%= user.recovered %>
                             </td>
 
@@ -51,18 +53,18 @@
                             <td>
                                 <%= user.critical %>
                             </td>
-                            <td>
+                            <td class="text-info">
                                 <%= user.tests %>
                             </td>
-                            <td>
+                            <td class="text-primary">
                                 <%= user.confirmed %>
                             </td>
 
                         </tr>
 
 
-                        <% i=i+1 %>
-                            <% }); %>
+
+                        <% }); %>
 
             </tbody>
         </table>
