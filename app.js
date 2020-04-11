@@ -28,6 +28,23 @@ app.get("/country", function(req, res) {
     });
 
 });
+app.get("/graphs", function(req, res) {
+    request("https://corona-stats.online/?format=json", function(err, response, body) {
+
+        if (!err && response.statusCode == 200) {
+            var data = JSON.parse(body);
+            console.log(data);
+            res.render("graphs", { data: data });
+
+        }
+
+
+
+    });
+
+});
+
+
 
 app.listen(3000, function(req, res) {
     console.log("server has started");
