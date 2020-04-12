@@ -1,5 +1,12 @@
 # covid-19
-
+<ul>
+  <li> install npm packages mentioned in package.json </li>
+  <li> install node.js</li>
+  <li> install nodemon </li>
+  <li> nodemon to start the node app </li>
+  <li> http://localhost:3000/ to open the webpage </li>
+  
+  </ul>
 ![](images/img1.png) 
 
 
