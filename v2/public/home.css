@@ -1,0 +1,96 @@
+.test {
+    font-size: 35px;
+}
+
+.navbar-brand {
+    padding: 0px;
+    font-family: 'Cookie', cursive;
+}
+
+.navbar-nav {
+    font-size: 25px;
+    font-family: 'Cookie', cursive;
+}
+
+.test2 {
+    font-size: 25px;
+}
+
+.navbar {
+    background: #3E5151;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1584931423298-c576fda54bd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    height: 400px;
+    color: wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+}
+
+h4 {
+    font-size: 500%;
+}
+
+.prevention {
+    color: #283747;
+}
+
+#test3 {
+    background: #636363;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a2ab58, #636363);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 3px;
+    border-color: #566573;
+    border-radius: 50px;
+    color: #DECBA4;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h3.prevention {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 25px;
+}
+
+.ul1 {
+    padding-bottom: 25px;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+.btn {
+    margin-left: 1650px;
+    margin-bottom: 20px;
+    padding: 25 30px;
+    border-radius: 6px;
+    border-color: #414d0b;
+    background: #414d0b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #727a17, #414d0b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #727a17, #414d0b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
