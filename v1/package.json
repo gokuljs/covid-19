@@ -19,7 +19,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "chart": "^0.1.2",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "csv-parser": "^2.3.2",
     "d3": "^5.15.1",
     "echarts": "^4.7.0",
